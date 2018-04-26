@@ -17,6 +17,10 @@
 	background-color: #f00;
 }
 
+.back:hover{
+	background-color: #f00;
+}
+
 @keyframes navColor {
 	0%  {background-color: #fac;}
 	25% {background-color: #fbe;}
@@ -42,6 +46,31 @@ body{
 }
 a{
 	text-decoration: none;
+}
+
+.back{
+	background-color: #fac;
+	width: 12%;
+	padding: 3px;
+	border: 2px solid black;
+	border-radius: 8px;
+	color: black;
+}
+
+h4{
+	text-align: center;
+}
+h2{
+	font-family: 'Cedarville Cursive', cursive;
+	text-align: center;
+	font-size: 200%;
+}
+
+p{
+	font-family: 'Indie Flower', cursive;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 125%;
 }
 
 img{
